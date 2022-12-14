@@ -21,7 +21,7 @@ export default function Myform() {
     }
     return (
         <div>
-            <h2> React Formik form and validation</h2>
+            <h2> React Formik form Validations</h2>
             <Formik initialValues={{ fullName: '', age: '', email: '' }} validationSchema={mySchema} onSubmit={(values) => postData(values)}>
                 <Form>
                     <div className='form-group'>
